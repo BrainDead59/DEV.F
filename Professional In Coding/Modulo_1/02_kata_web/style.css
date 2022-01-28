@@ -1,0 +1,31 @@
+h1{
+    color: rgb(31, 194, 53);
+    background-color: rgb(138, 64, 64);
+}
+
+#primer{
+    color: crimson;
+    display: inline; /*Cambia el tamaño que ocupa el elemento por default*/
+}
+
+#segundo{
+    color: darkgreen;
+}
+
+.Tipo{
+    font-size: large;
+    background-color: darkkhaki;
+    color: darkorchid;
+}
+
+#modificado{
+    padding: 10px;
+    border: darkseagreen;
+    margin: 10px;
+}
+
+#normal{
+    padding: 10px;
+    border: darkseagreen;
+    margin: 10px;
+}
