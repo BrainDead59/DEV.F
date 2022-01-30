@@ -1,0 +1,23 @@
+/* div.exterior{
+    height: 400px; 
+    width: 200px;
+    background-color: lawngreen;
+} */
+
+/*div.exterior{
+    height: 500px; Se adapta a la pantalla o al contenedor
+    width: 300px;
+    background-color: rgb(41, 38, 212);
+    padding: 70px 70px 70px 70px;
+    border: lightseagreen 10px solid;
+    margin: 50px;
+} */
+
+a{
+    height: 5px; /*Se adapta a la pantalla o al contenedor*/
+    width: 5px;
+    background-color:lightskyblue;
+    padding: 10px;
+    border: lightseagreen 10px solid;
+    margin: 10px;
+}
