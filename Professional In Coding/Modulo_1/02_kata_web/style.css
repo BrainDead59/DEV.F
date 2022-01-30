@@ -1,5 +1,9 @@
+body{ /*Por el anidamiento de las etiquetas se aplica el atributo a lo que esten contenidos*/ 
+    font-style:oblique;
+}
+
 h1{
-    color: rgb(31, 194, 53);
+    color: rgb(31, 194, 53) !important; /*Indica la prioridad a la modicación sobre las demas*/
     background-color: rgb(138, 64, 64);
 }
 
@@ -28,4 +32,8 @@ h1{
     padding: 10px;
     border: darkseagreen;
     margin: 10px;
+}
+
+.Jerarquia{
+    color: aqua;
 }
