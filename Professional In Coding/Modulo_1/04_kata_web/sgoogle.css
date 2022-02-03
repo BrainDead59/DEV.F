@@ -1,0 +1,39 @@
+#logo{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#iconos{
+    width: 200px;
+    display: inline-block;
+}
+
+.header #gmail{
+    padding-left: 950px;
+}
+
+#TAKEZO{
+    width: 25px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.buscador{
+    margin-left: 550px;
+    margin-bottom: 20px;
+}
+
+#ofrecido{
+    display: inline-block;
+}
+
+.botones{
+    margin-left: 500px;
+}
+
+.letras{
+    margin-left: 330px;
+    margin-top: -10px;
+}
