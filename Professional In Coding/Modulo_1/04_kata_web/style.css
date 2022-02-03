@@ -1,0 +1,38 @@
+/**{
+    Todo en el body se modifica, * selecciona todos los elementos
+}*/
+
+h1{
+    border: 2px black solid;
+    height: 50 px;
+    width: 100px;
+    display: inline-block;
+}
+
+/*
+Inline permite tener elementos en la linea pero no su tamaño
+*/
+
+/*
+Block modificar altura y ancho, pero no tener elementos juntos
+*/
+
+
+/*
+Inline-block permite tener elementos juntos y modificar altura y ancho
+*/
+
+a{
+    display: inline-block;
+    border: 2px solid steelblue;
+}
+
+.hija{
+    margin: 0 0 0 500px;
+}
+
+.padre{
+    border: 2px solid green;
+    height: 100px;
+    padding: 0 0 0 500px;
+}
