@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Encabezado principal</h1>
+        <nav>
+            <a href="#ImagenA">Imagen uno</a>
+            <a href="#Imagen">Imagen dos</a>
+        </nav>
+    </header>
+
+    <main>
+        <!--section -> existe un article-->
+        <section class="fotos">
+            <article>
+                <p>Los perros no bailan</p>
+            </article>
+            <article>
+                <p>El animal come</p>
+            </article>
+        </section>
+
+        <!--Complemento del section-->
+        <aside>
+            <img src="" alt="Foto de un animal">
+        </aside>
+
+        <!--Figure, figcaption-->
+
+        <figure>
+            <img src="" alt="Foto de un animal">
+            <figcaption>Pie de la imagen</figcaption>
+        </figure>
+    </main>
+
+    <footer>Terms, site, contact, references</footer>
+
+    <!-- Formularios -->
+    <fieldset>
+        <legend>Etiqueta loca a rompe madre</legend>
+    <form action="" name="" method="">
+        <label for="nombre">Inserta tu nombre:</label>
+        <input type="text" name="" id="nombre" value="" placeholder="Escribe aqui" size="20">
+        <br>
+        <!--Vinculación entre la label y el text o input, for - id, mismo nombre-->
+        <label for="texto">Ejemplo de texto:</label>
+        <textarea name="" id="texto" cols="30" rows="10"></textarea>
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="email" placeholder="Escribe tu correo" name="correo" id="correo">
+        <label for="contra">Contraseña:</label>
+        <input type="password" placeholder="Escribe la contraseña" name="contra" id="contra">
+        <br>
+        <input type="radio" id="radio1" value="Rojo" checked> Rojo
+        <input type="radio" id="radio2" value="Azul">Azul
+        <input type="checkbox" id="radio3" value="Cafe">Cafe
+        <label for=""></label>
+        <br>
+    </fieldset>
+        <!--El contenido el value, es el que se envia a la base o servidor-->
+        <label for="mangas">Mangas</label>
+        <select name="mangas" id="">Selecciona un manga
+            <option value="vagabond">Vagabond</option>
+            <option value="berserk">Berserk</option>
+            <option value="one_punch_man">One Punch Man</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
