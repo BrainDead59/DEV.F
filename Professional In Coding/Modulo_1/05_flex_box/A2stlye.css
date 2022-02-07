@@ -1,0 +1,56 @@
+.padre{
+    width: 1000px;
+    height: 600px;
+    background-color: blue;
+    border: 2px rgb(8, 8, 8) solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.h1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.n1{
+    width: 90%;
+    height: 40%;
+    background-color: white;
+}
+
+.tn1{
+    width: 90%;
+    height: 75%;
+    background-color: red;
+}
+
+.h2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.n2{
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    justify-content:right;
+}
+
+.tn2{
+    width: 90%;
+    height: 75%;
+    background-color: red;
+}
+
