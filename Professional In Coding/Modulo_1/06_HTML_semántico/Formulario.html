@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <header>
+        <h1>Registro al Gimnasio: Los dos carnales</h1>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend class="datos">Datos del usuario</legend>
+            <section>
+                <article>
+                    <form action="">
+                        <label for="nombre">Inserta tu nombre:</label>
+                        <input type="text" name="" id="nombre" value="" placeholder="Escribe aqui" size="20">
+                        <label for="">¿Nuevo miembro o renovación?</label>
+                        <input type="checkbox" id="nueva" value="new">Nuevo
+                        <input type="checkbox" id="vieja" value="old">Renovación
+                        <label for="texto">Describe tus principales objetivos al unirte al Gimnasio</label>
+                        <textarea name="" id="texto" cols="40" rows="10"></textarea>
+                    </form>
+                </article>
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Opciones de entrenamiento</legend>
+            <section>
+                <article>
+                    <form action="">
+                        <label for="Horario">Horario:</label>
+                        <input type="date" name="" id="Horario" value="" placeholder="Escribe aqui" size="20">
+                        <label for="Hora">Horario:</label>
+                        <input type="time" name="" id="Hora" value="" placeholder="Escribe aqui" size="20">
+                        <label for="Horario">Instalaciones:</label>
+                        <select name="instalacion" id="">Selecciona el área para el dia y hora anteriores
+                            <option value="Alberca">Alberca</option>
+                            <option value="Gimnasio">Gimnasio</option>
+                            <option value="Crossfit">Crossfit</option>
+                        </select>
+                        
+                    </form>
+                </article>
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Creación de cuenta</legend>
+            <section>
+                <article>
+                    <label for="texto">Nombre de usuario:</label>
+                    <input type="text" placeholder="Escribe tu nombre de usuario" name="" id="texto">
+                    <label for="contra">Contraseña:</label>
+                    <input type="password" placeholder="Escribe la contraseña" name="contra" id="contra"
+                    <label for="tyc">¿Aceptas los términos y condiciones del Gimnasio?:</label>
+                    <input type="radio" id="tyc" value="si">Si
+                    <input type="radio" id="tyc" value="no">No
+                    <input type="submit">
+                </article>
+            </section>
+        </fieldset>
+    </main>
+</body>
+</html>
