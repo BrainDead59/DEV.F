@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Medida relativa de vista, para evitar el scroll*/
+    height: 100vh;
+}
+
+.padre{
+    width: 600px;
+    height: 600px;
+    border: 2px red solid;
+    /*Colocar antes de realizar los cambios*/
+    display: flex;
+    /*flex-direction cambie la posición de fila a columna*/
+    flex-direction: row;
+    /*Acomodar los elementos en mi eje x */
+    justify-content: center;
+    /*Acomodar elementos en el eje x*/
+    align-items: center;
+    
+    /*En función del flex direction se invierte el acomod de justify y align*/
+
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+
+    justify-content: space-between;
+    justify-content: space-around; */
+
+}
+
+.hijo{
+    width: 40%;
+    height: 40%;
+    border: 2px blue solid;
+    display: flex;
+    justify-content: center;
+}
+
+.hija{
+    width: 40%;
+    height: 40%;
+    border: 2px green solid;
+}
+
+.nieto{
+    width: 40%;
+    height: 40%;
+    border: 2px greenyellow solid;
+}
