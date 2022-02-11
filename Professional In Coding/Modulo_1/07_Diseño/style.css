@@ -1,0 +1,95 @@
+html{
+    font-size: 20px;
+}
+
+/* h1{
+    /*Están basadas en el tamaño de la fuente del elemento html rem*/
+    /* font-size: 2rem;
+}  */
+
+/*.container{
+    Porcentaje o pixeles: solo para contenedores
+    font-size: 12px;
+}*/
+
+/*.container p{
+    revisa el contenido padre em
+    font-size: 0.5em;
+}*/
+/* 
+body{
+    height: 6000px;
+    width: 4000px;
+}
+
+.devem{
+    width: 95vw;
+    height: 95vh;
+    background-color: blueviolet;
+    font-size: 12px;
+}
+
+.textrems{
+    font-size: 1.125rem;
+}
+
+.textems{
+    font-size: 3em;
+} */
+
+/*Media Query*/
+/*Indica el único elemento con only a afectar, en la condición se indican las medidas a cumplir si hay
+un cambio de dispositivo*/
+
+*{
+    margin: 0;
+}
+
+div.primera{
+    width: 100vw;
+    height: 200px;
+}
+
+div.segunda{
+    width: 50vw;
+    height: 150px;
+    background-color: black;
+}
+
+@media only screen and (max-width:1366px){
+    div.primera{
+        background-color: aqua;
+    }
+    div.segunda{
+        background-color: rgb(255, 123, 0);
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    div.primera{
+        background-color: rgb(166, 115, 214);
+    }
+}
+
+@media only screen and (max-width:900px){
+    div.primera{
+        background-color: blueviolet;
+    }
+    p{
+        background-color: tomato;
+    }
+}
+
+@media only screen and (max-width:700px) and (min-width: 450px){
+    div.segunda{
+        background-color: rgb(61, 43, 226);
+        width: 100vh;
+    }
+    p{
+        background-color: rgb(237, 255, 71);
+    }
+    div.primera{
+        background-color: rgb(61, 43, 226);
+    }
+}
