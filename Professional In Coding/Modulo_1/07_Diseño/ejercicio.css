@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+.padre{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.color1{
+    background-color: rgb(16, 180, 79);
+    width: 33%;
+    height: 100%;
+}
+
+.color2{
+    background-color: orange;
+    width: 33%;
+    height: 100%;
+}
+
+.color3{
+    background-color: rgb(31, 20, 189);
+    width: 33%;
+    height: 100%;
+}
+
+@media only screen and (max-width:910px){
+    .color1{
+        width: 50%;
+    }
+    
+    .color2{
+        width: 50%;
+    }
+
+    .color3{
+        width: 100%;
+    }    
+}
+
+@media only screen and (max-width:500px){
+    .color1{
+        width: 100%;
+    }
+    
+    .color2{
+        width: 100%;
+    }
+
+    .color3{
+        width: 100%;
+    }  
+}
