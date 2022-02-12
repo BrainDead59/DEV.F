@@ -1,0 +1,54 @@
+.container{
+    display: grid;
+    /* width: 1000px;
+    height: 1200px; */
+    width: 100vw;
+    height: 100vh;
+    /* grid-template-columns: 200px 250px 350px 200px; */
+    /* grid-template-columns: repeat(4,150px); */
+    /* Se pueden usar porcentajes, y pixeles */
+    /* grid-template-columns: 50% 15% 200px; */
+    /* fracciones solo para grid, dinamicas, al ancho restante*/
+    /* grid-template-columns: 1fr 3fr 2fr 4fr; */
+    /* grid-template-columns: 300px 10% 1fr 2fr;
+    grid-template-rows: 300px 400px repeat(5,100px); */
+
+    /*grid-template: renglones/columnas; */
+    /* grid-template: 150px 10%/ 1fr 3fr 1fr 1fr; */
+    grid-template: repeat(4,150px)/repeat(12,100px);
+    row-gap: 5px;
+    column-gap: 15px;
+}
+
+div{
+    border: black 2px solid;
+}
+
+.a{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    /*Inicio de la columna, final dela columa*/
+    grid-column: 2/4;
+    align-self: center;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.b{
+    background-color: blueviolet;
+    /*row inicio/ col inicio / row fin / col fin*/
+    grid-area: 2/3/4/span 4;
+}
+
+.c{
+    background-color: coral;
+    /*renglon inicio / renglon final +1*/
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
