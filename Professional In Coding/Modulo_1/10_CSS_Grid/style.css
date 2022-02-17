@@ -18,6 +18,10 @@
     grid-template: repeat(4,150px)/repeat(12,100px);
     row-gap: 5px;
     column-gap: 15px;
+    /*Ajustar en las abcisas*/
+    justify-content: center;
+    /*Ajusta en las ordenadas*/
+    align-content: space-between;
 }
 
 div{
