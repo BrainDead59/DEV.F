@@ -1,0 +1,45 @@
+div{
+    width: 150px;
+    height: 150px;
+}
+
+.div1{
+    background-color: black;
+    /*static
+      absolut
+      relative
+      fixed
+    */
+    /* position: relative; */
+    /*Alejar de la parte superior del contenedor padre*/
+    /*top, bottom, right, left*/
+    /*Pueden ser px o porcentajes*/
+    /* bottom:50px;
+    left: 150px; */
+
+    /*permite manipular la posición del elemento, sin afectar a
+    los demás es como si estuviera sobrepuesto, deja de existir
+    para los otros objetos*/
+    /* position: absolute;
+    top: 50px;
+    left: 350px; */
+
+    /*fixed, */
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+    z-index: 0;
+}
+
+.div2{
+    background-color: aqua;
+}
+
+.div3{
+    background-color: brown;
+}
+
+.div4{
+    background-color: chocolate;
+}
