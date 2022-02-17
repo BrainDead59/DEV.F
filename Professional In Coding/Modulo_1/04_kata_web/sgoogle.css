@@ -5,6 +5,11 @@
     margin-right: auto;
 }
 
+input:hover{
+    border-radius: 25px;
+    margin-right: 60000px;
+}
+
 #iconos{
     width: 200px;
     display: inline-block;
@@ -31,6 +36,10 @@
 
 .botones{
     margin-left: 500px;
+}
+
+.botones:hover{
+    background-color: aliceblue;
 }
 
 .letras{
