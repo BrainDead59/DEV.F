@@ -1,0 +1,48 @@
+#logo{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input:hover{
+    border-radius: 25px;
+    margin-right: 60000px;
+}
+
+#iconos{
+    width: 200px;
+    display: inline-block;
+}
+
+.header #gmail{
+    padding-left: 950px;
+}
+
+#TAKEZO{
+    width: 25px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.buscador{
+    margin-left: 550px;
+    margin-bottom: 20px;
+}
+
+#ofrecido{
+    display: inline-block;
+}
+
+.botones{
+    margin-left: 500px;
+}
+
+.botones:hover{
+    background-color: aliceblue;
+}
+
+.letras{
+    margin-left: 330px;
+    margin-top: -10px;
+}
