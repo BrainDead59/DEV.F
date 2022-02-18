@@ -1,0 +1,61 @@
+*{
+    background-color: white;
+}
+
+.Navbar{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.button_nav_1{
+    border: black 2px solid;
+    border-radius: 50px;
+    font-family: quick;
+    font-size:  larger;
+}
+
+input{
+    width: 400px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+
+.NavIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border: 4px black solid ;
+    border-radius: 50%;
+}
+
+.NavIcon:hover{
+    color: black;
+    background-color: rgb(0, 139, 46);
+    transition: all .3s;
+}
+
+.NavIcon:active{
+    border: 4px rgb(106, 140, 255) solid
+}
+.NavIcon:visited{
+    border: 4px rgb(106, 255, 168) solid
+}
+
+.Menu_Notif{
+    display: none;
+    flex-direction: column;
+    width: 200px;
+}
+
+.Menu_Notif:hover{
+    background-color: black;
+}

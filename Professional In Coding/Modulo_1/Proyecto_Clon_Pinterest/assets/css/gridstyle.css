@@ -1,0 +1,35 @@
+body{
+    margin: 30px;
+}
+
+.contenedorA{
+	width: 100vw;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border: 2px rgb(2, 34, 104) solid;
+    justify-content:space-evenly;
+}
+
+.imagen_icono{
+    width: 40%;
+    height: 100%;
+    border: 2px rgb(2, 34, 104) solid;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.datos{
+    width: 40%;
+    height: 100%;
+    border: 2px rgb(28, 158, 119) solid;
+    display: flex;
+}
+
+img{
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 23px;
+}

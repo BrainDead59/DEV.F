@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesnavar.css">
+    <link rel="stylesheet" href="assets/css/individual.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Pinterest</title>    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+             <div class="logo"> <a href="Pinterest_Clon.html"><img class="logopng" src="assets/img/navbar/LogoPint.png" alt=""></a></div>
+             
+             <div class="menudiv">
+                 <div class="ButInicio"><a href="Pinterest_Clon.html">Inicio</a></div>
+ 
+                 <div class="ButHoy"><a href="">Hoy</a></div>
+ 
+                 <div class="DivSearchBar">
+                     <form Name="Busqueda" action="">
+                     <input class="SearchBar" type="text" name="Search" id="Search" placeholder="Buscar">
+                     </form>
+                 </div>
+ 
+                 <div class="ButMenu">
+                     <a href=""><span class="material-icons-1">notifications<span></a>
+                 </div>
+ 
+                 <div class="ButMenu">
+                     <a href=""><span Class="material-icons-2">sms</span></a>
+                 </div>
+ 
+                 <div class="ButMenu">
+                     <a href=""><span class="material-icons-1">person</span></a>
+                 </div>
+ 
+                 <div class="ButMenuCon">
+                     <a href=""><span class="material-icons-1">expand_more</span></a>
+                 </div>
+             </div>
+             
+             
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="imagen_icono">
+                <img class="imagen" src="assets/img/main/1.jpg" alt="">
+            </div>
+            <div class="datos">
+                <div class="iconos">
+                    <div class="primero_tres">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEX///8AAADx8fGZmZm1tbWVlZWOjo729vaSkpI3NzfT09PCwsLp6eni4uJiYmKurq4RERGfn58tLS3MzMxBQUGHh4dTU1MXFxdbW1ve3t5MTEx6enpsbGxnZ2e7u7tHR0cmJiYeHh49ejJBAAACkElEQVR4nO3aiXKiQBDGcRvwQon3EV0Tff+XDJTZqASme8Dacof/7wG+moZmDqDXAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYvSWX80GC0m02GLlGGWxHlKnGRtUnrTySJP6c/SqE3KvSzeyo/lcdUsJUpOu1vMW9JweKvj+JZyiLNmKQ/SNylZzvxTosG8lDLfNKgxWZYHs0/9Ux5H9qccWTj73sdFVYosPFNW56qUU6tm/agcWe7ok5Kta1LWXk12rBvMh19R9/p1mSKf9iu3qk8RezNEn/UpoybFFTaOocnSWuLElSITa4G/nsB7Xi1lLFBkZ5vyXXewYLuLw507ZdOkwJkyNDlYUjItRUzP4kFLaTC/60OTviGmbpK5WRtSHBOC14V6oF613LuaUr1MPNIXjXdDiqmj7iWGUNlqKZElRdQ5a6tniCSeFY71yJy2oVAmq2/aNJGaUsZ+Bbqn+B97d0pU3qpVmys3cW8bjHXhufq1Ga3hHpup1UVrMFur57t5rwqNocrYrNfJPTZ12frLp0Bjk+bbXlfK0NakeZs6Nw8n62B8zgOxNdT5eFsm+SvnYmab9MTvrGJtL5GpI8X6GLqbfWpO8XkQzZfNueibO0FiR4q9E3zWi8qjZiXXijgyp7iOP7bVsHD2qPDylAoH5pTBUyq8eFQY/j0M/zkMfy59znpoOGJ++/frYfh7mvD3pR04W4R/Pgz/jN+B9zThv2vrwPtSfZJWe7Twwu+8X+y7xcWd0ui7RQe+Pf0/3w8tE0KN2uvvddGmz/kGXNtSLb4Bd+A7fi/8fzEKof9Pcx1e2P9EAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAl/QFcl8j70Yub8MAAAAASUVORK5CYII=" alt="" width="25" height="25">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8DAQQAAADU1NS8u7zPz8+JiYl3dnc7Ozs1NDXMy8wDAASfn5/Y2Nj6+voyMTJvbm+Uk5Tp6elZWFn19fXg4OAlJCWCgYJOTU9oZ2gZGBlSUVLExMRaWVoQDxFHRkeqqqtqamsiISKmpqYsKyyamps7kzRCAAAEBElEQVR4nO3d61riMBSF4ZIywFBpOVSqAoIK93+LUwiWgm3oCfdKZn2/fcb9DhJKgtXzfrf1SxA9/fL3/M3CqTq2jaUHeVivqndMraQHeVQzFZyEgZpKj/KY+ko/hEfiTHqYRzTJgMcf1L70ON0Xv+WAPaUm0gN13igPTImfri2o0/MqcyE6tqA+XT+CJ+JAeqguW6sCoUurzXMB0KnVJv4sAqbEpSurzaoYmBI30qN10/B2Gc1y5NqmYBnNPRXX0uO1b1y4ymTE97n0gG2bG4EpcSs9YcvipRmYEofSM7ZrcQ9o+9uM5D4wXW2epcds3q4CMCVGofSgTTMvozniq/SkDZv3qgFToqUbjPuqwPSp+Ed62CZtKgNT4puF1+CD0qvRQuKL9Ly121VcZTKibe/4JzWBKdGua/C4NtCyF/5wVBuYEkcWvfB/1FplMqI91+CzBo/gibiTnrxi/YZAa56K9ZfRCzGy4YW/bOuwSnYcLG6bA4+P4pf0/Hf7aAW0YB/80Oh1Ik8E3wfvN19lzgXYb4dbLKM54kGaUV6bZfQS8tvhdsvohRigPhXLT2DqEhfSlOJMJzD1Aj2SKjrIbppSY2nOz+6dwNQlwj0Vrz8P1AER7kiqwglMrQK0namkq2U0C+x0uNoJTF0i0Onwn05XmYwYSbuyij8P1AExkZada7R1WEmIcjpc+nmgDogQO1PDhwFBTofXDwRCXIPf/zRJS6L4zpT/WCDA0Wk8UuV1IZTfewv93VNxXzWuVQ3/TdKPoalBjU8qlLScAl26/ayGEHfvyRiFFOJHIYX4UUghfhRSiB+FFOJHIYX4UUghfhRSiB+FFOJHIYX4UUghfhRSiB+FFOJHIYX4UUghfhRSiB+FFOJHIYX4UUghfhRSiB+FFOJHIYX4UUghfhRSiJ/7wip/ZOa/EYrfwKRZVe8VqdSn9KhN20WGu7Lk2kLc8KpR4XwyvpsPfYMWBpI/HRoCu8vmTYlp9Kl//qq+cRnAuT9jUXvj7N93JTT+PQo1EhXc669xdgopRIhCHYXIUaijEDkKdRQiR6GOQuQo1FGIHIU6CpGjUEchchTqKESOQh2FyFGooxA5CnUUIkehjkLkKNRRiByFOgqRo1BHIXJdCKOJD9y+vTCo9isTYgWthT3TPyGfcbqKQouj0P4otD8K7Y9C+6PQ/ii0v0w4dlY4PgufnRV+/55/aHwbaW+BCr83O4xbAfam9tl2zsxR4SwTThwV5u6YsnCRqBYXoOdXvM+KTSnl54Re4txyGqjEu2rr2oOottdAL166RVT7+EbohRuHnotKbcJbYNpBOWJMHYcCX9o8OZ0ESA/YqpMgKb8vU7hOVtG79JQteo9Wg/H1D+g/5exh0b+tWRYAAAAASUVORK5CYII=" alt="" width="25" height="25">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlKAPrY2DtIH3zcKT_Fm8vvhcPkNpNPpYVMg&usqp=CAU" alt="" width="25" height="25">
+                    </div>
+                    <div class="segundo_dos">
+                        <p id="texto1">Pins</p>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8jHyAAAAAgHB0LAAPy8vIcFxgIAAAeGhsZFBUNBAfAv7+enZ0qJicXERMdGBnb2tr29vbJyMhPTU3r6+svLCxAPT43NDWWlJW3trZ6eHhXVVXS0dLHxsY6Nzfh4eFzcXJ/fn6lpKSOjY5raWmura1hX2BHRUV/fX6Jh4hta2tLSEhX2VWUAAAEDklEQVR4nO3a63qiMBCA4SYICChqxcPWWnuw7W57//e3aHfFAxkPJEj7fO/vljHATCYJNzcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4OfrPLy/TxL/2z3AmGeowjmPt/alvjIOsxvv5WwdqzYu797VE9DvDkeqOn/q1RLtZarXR1q81ROzoVuB5Xi/Vb3U8yM7WAHP6xXXAwVsRMR0tXIe7yUJP7Q5xOXAacDGOt6JFk8xptNw0VnviscugSRjsREvfHAZbG3n7I1RRcOss3FTvx9OJs2Bf9MEA85qqf7kJNvg4DBcM3cT6LysbYT5EJ/UmezhIidVDdJv35SPMwzpIj3kalIZyPAfvl9L/7NebzkEK/hvh3HKgPcuofIQqstzfPBreFqXd1bW1xBRY9VoW6032XpaCXyN0PekPTQ/RZr25jc1RuraCmCyitim40o926tyzIQXXMTpWQkhuw54xfPxpo97cGTMh7/W7bieLtYWXGn9AFFVe4WSfxhRcZYLjOvPFn7XM97hqf3OfGlMwv7rNaiYS3iNPT6tc+dU04a7fEFXPinvFNB2v6MfLr/tbuK5qvTtfOm1JyluqtfjSX+IPQ/P4lL6zO4Rj+hOh3lzW39x3zZfME/zZ9hCO8YdCvbmkIrzG5plWRZ7jdrSUsXVc1ZuzJ+Y/Ugq63UgwE+vNx1mX8mfCNO+deTGLkljqb87Y+uuPhBT0Qved2kW/LB2d3N/8Eu6UCuJrpOCGVG964Ym7Ri9iCj5cJwULYn9zyuu1veV76HopWBDrzfFZuv8gpWANi6UTJNo8kbVmR+pNEpmbIxW43pQ51UJoRtJU3HWQU3Ds/pjiRP7M3FC2Y3O9GSzFFHR8JHIeqd4Yp7PdU5f9f6u2DLPvgnozN+835SnYcn1AcTapZITDknoj3ROVThqTggVpPZVO9vubgdC3r04JmpSCG/6nub8J0t26n8kp6Pxk+VIn9ze30n5Tz9VpnQ1ivXna/Jm05VvyRjdKEpr7m3D2L7nEFAxr+eCigr7U36wLZCaka/4yPx0NcW0DYb84COfylm8vbnAKFsR68yRt+aaT+rZ8K5HqjbBUyhO14SlYSFrCroT5+da85VuJtJ4y6MV1fCNnj7SeKpXW9J2jRdI556HQytlqzcS1w67vMAuWEbdgtl3h1MUScSe7EKlajq6dkNZTGxcfNzbD3bFk/F6zYJkj9eaqpy6WzIX94nzp/31TsCDUm+ufuthh/P6mylcbDVPa3zTk1MWSknrTmFMXSw6+v2nQqYsle/VGfzRyy7cSf1gkY/tHpWBhqltB2/N6ke7+rBQs+J3Zw2g0XjbuVMkq/9tsNgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADTYX5+cLSGyQx9EAAAAAElFTkSuQmCC" alt="" width="25" height="25">
+                        <button class="button1">
+                            <p id="texto4">Guardar</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="seguir_comentarios">
+                    <div class="compartido">
+                        <p id="texto2">Subido por</p>
+                        <a id="texto3" href="#">Usuario</a>
+                    </div>
+                    <div class="comentarios">
+                        <div class="comentarios_A">
+                            <p id="texto5">Comentarios</p>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8jHyAAAAAgHB0LAAPy8vIcFxgIAAAeGhsZFBUNBAfAv7+enZ0qJicXERMdGBnb2tr29vbJyMhPTU3r6+svLCxAPT43NDWWlJW3trZ6eHhXVVXS0dLHxsY6Nzfh4eFzcXJ/fn6lpKSOjY5raWmura1hX2BHRUV/fX6Jh4hta2tLSEhX2VWUAAAEDklEQVR4nO3a63qiMBCA4SYICChqxcPWWnuw7W57//e3aHfFAxkPJEj7fO/vljHATCYJNzcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4OfrPLy/TxL/2z3AmGeowjmPt/alvjIOsxvv5WwdqzYu797VE9DvDkeqOn/q1RLtZarXR1q81ROzoVuB5Xi/Vb3U8yM7WAHP6xXXAwVsRMR0tXIe7yUJP7Q5xOXAacDGOt6JFk8xptNw0VnviscugSRjsREvfHAZbG3n7I1RRcOss3FTvx9OJs2Bf9MEA85qqf7kJNvg4DBcM3cT6LysbYT5EJ/UmezhIidVDdJv35SPMwzpIj3kalIZyPAfvl9L/7NebzkEK/hvh3HKgPcuofIQqstzfPBreFqXd1bW1xBRY9VoW6032XpaCXyN0PekPTQ/RZr25jc1RuraCmCyitim40o926tyzIQXXMTpWQkhuw54xfPxpo97cGTMh7/W7bieLtYWXGn9AFFVe4WSfxhRcZYLjOvPFn7XM97hqf3OfGlMwv7rNaiYS3iNPT6tc+dU04a7fEFXPinvFNB2v6MfLr/tbuK5qvTtfOm1JyluqtfjSX+IPQ/P4lL6zO4Rj+hOh3lzW39x3zZfME/zZ9hCO8YdCvbmkIrzG5plWRZ7jdrSUsXVc1ZuzJ+Y/Ugq63UgwE+vNx1mX8mfCNO+deTGLkljqb87Y+uuPhBT0Qved2kW/LB2d3N/8Eu6UCuJrpOCGVG964Ym7Ri9iCj5cJwULYn9zyuu1veV76HopWBDrzfFZuv8gpWANi6UTJNo8kbVmR+pNEpmbIxW43pQ51UJoRtJU3HWQU3Ds/pjiRP7M3FC2Y3O9GSzFFHR8JHIeqd4Yp7PdU5f9f6u2DLPvgnozN+835SnYcn1AcTapZITDknoj3ROVThqTggVpPZVO9vubgdC3r04JmpSCG/6nub8J0t26n8kp6Pxk+VIn9ze30n5Tz9VpnQ1ivXna/Jm05VvyRjdKEpr7m3D2L7nEFAxr+eCigr7U36wLZCaka/4yPx0NcW0DYb84COfylm8vbnAKFsR68yRt+aaT+rZ8K5HqjbBUyhO14SlYSFrCroT5+da85VuJtJ4y6MV1fCNnj7SeKpXW9J2jRdI556HQytlqzcS1w67vMAuWEbdgtl3h1MUScSe7EKlajq6dkNZTGxcfNzbD3bFk/F6zYJkj9eaqpy6WzIX94nzp/31TsCDUm+ufuthh/P6mylcbDVPa3zTk1MWSknrTmFMXSw6+v2nQqYsle/VGfzRyy7cSf1gkY/tHpWBhqltB2/N6ke7+rBQs+J3Zw2g0XjbuVMkq/9tsNgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADTYX5+cLSGyQx9EAAAAAElFTkSuQmCC" alt="" width="25" height="25">
+                        </div>
+                        <div id="texto6">
+                            <p>Comparte tus comentarios, haz preguntas o haz un cumplido</p>
+                        </div>
+                        <div class="inserta_comentario">
+                            <img id="user_photo" src="https://i.pinimg.com/564x/7c/ce/3f/7cce3fba8fb4bbce58e110d8acf08a95.jpg" alt="" width="53" height="53">
+                            <form class="barra" role="search">
+                                <input type="text" placeholder="Agregar un comentario">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="guardado">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 

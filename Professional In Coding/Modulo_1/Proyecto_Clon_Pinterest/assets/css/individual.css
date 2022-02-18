@@ -1,9 +1,6 @@
-body{
-    margin: 70px;
-    height: 1100px;
-}
-
 .contenedor{
+    position: relative;
+    top: 120px;
 	width: 1070px;
     height: 540px;
     margin-left: auto;
@@ -30,9 +27,6 @@ body{
     height: 20%;
     display: flex;
     justify-content:space-between;
-    position: sticky;
-    top: 10px;
-    background-color: white;
 }
 
 .primero_tres{
@@ -135,7 +129,7 @@ body{
     display: flex;
 }
 
-.inserta_comentario #user_photo{
+#user_photo{
     border-radius: 50%;
 }
 
@@ -158,27 +152,9 @@ input{
 
 .guardado{
     width: 100%;
-    height: 30%;
-    display: flex;
-    align-items:center;
-    position: relative;
-    bottom: 0;
-    z-index: -1;
+    height: 25%;
 }
 
-#texto7{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 8px;
-    font-size: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.guardado #user_keep{
-    border-radius: 50%;
-    margin-right: 9px;
-}
 
 .imagen{
     min-width: 100%;

@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+.padre{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    position: relative;
+    top:100px;   
+}
+
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.adjustment{
+    border-radius: 20px;    
+}
+
+.column img{    
+    background-color:aliceblue;    
+    display: inline-block;    
+    width: 100%;
+}
+
+.card
+{
+    position: relative;
+    cursor: zoom-in;
+    margin-bottom: 10px;
+}
+
+.card .pins
+{
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+
+}
+
+.card .link{
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+    cursor:zoom-in;                
+    border-radius: 24px;
+}
+
+.card:hover .link{    
+    background-color: #211922;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+
+
+.card .save{    
+    position: absolute;
+    right: 0;
+    top: 30px;
+    right: 10px;
+    z-index: 1000;   
+}
+
+.card .save a{
+    background-color: rgb(255 0 0);
+    border-radius: 24px;
+    padding: 12px 15px 12px 15px; 
+    font-weight: 700;
+    color: white ;  
+    text-decoration: none;     
+}
+
+@media (max-width: 800px) {
+    .column{
+        flex: 50%;
+    }
+       
+}
+
+@media (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+       
+}
