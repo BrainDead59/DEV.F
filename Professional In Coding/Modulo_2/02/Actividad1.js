@@ -4,7 +4,7 @@ console.log(edad*2)
 
 //Segundo apartado
 var valor1 = Number(prompt("Inserta el primer valor"))
-var valor2 = Number(prompt("Inserta el primer valor"))
+var valor2 = Number(prompt("Inserta el segundo valor"))
 console.log(valor1-valor2)
 
 //Tercer apartado
