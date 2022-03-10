@@ -13,7 +13,6 @@ var pi=3.1416
 console.log("Valor del area:"+pi*radio*radio)
 
 //Cuarto apartado
-var p=5
 var D=8
 var d=6
-console.log("Valor del area:"+D*d*p/2)
+console.log("Valor del area:"+D*d/2)
