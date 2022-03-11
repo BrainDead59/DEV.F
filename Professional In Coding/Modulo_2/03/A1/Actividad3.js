@@ -37,12 +37,31 @@ if(numero1>numero2){
 var numero1 = Number(prompt("Inserta un numero"))
 var numero2 = Number(prompt("Inserta otro numero"))
 var numero3 = Number(prompt("Inserta otro numero"))
+
 if(numero1>numero2 && numero1>numero3){
-    console.log("Numero1 mayor:",numero1)
+    console.log("Numero mayor:",numero1)
 }else if(numero2>numero1 && numero2>numero3){
-    console.log("Numero2 mayor:",numero2)
+    console.log("Numero mayor:",numero2)
 }else if(numero3>numero1 && numero3>numero2){
-    console.log("Numero3 mayor:",numero3)
-}else if(numero3==numero1 || numero3==numero2 || numero2==numero1){
-    console.log("Dos números son iguales")
+    console.log("Numero mayor:",numero3)
+}else if(numero1==numero2){
+    if(numero2==numero3){
+        console.log("Todos son iguales")
+    }else{
+        console.log("Dos números son iguales", numero1, numero2)
+    }
+}else if(numero1==numero3){
+    if(numero3==numero2){
+        console.log("Todos son iguales")
+    }else{
+        console.log("Dos números son iguales", numero1, numero3)
+    }
+}else if(numero2==numero3){
+    if(numero1==numero3){
+        console.log("Todos son iguales")
+    }else{
+        console.log("Dos números son iguales", numero2, numero3)
+    }
 }
+
+
